@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fútbol al Día - Toda la información futbolística</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="logo">
+      <span class="logo-icon">⚽</span>
+      <span class="logo-text">Fútbol al Día</span>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#jugadores">Jugadores</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Vive la Pasión del Fútbol Cada Segundo</h1>
+      <p>Noticias, estadísticas, análisis de partidos y el seguimiento detallado de las grandes estrellas del fútbol mundial en un solo lugar.</p>
+      <a href="#jugadores" class="btn-cta">Descubrir Más</a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN JUGADORES -->
+  <section id="jugadores" class="players-section">
+    <h2 class="section-title">Jugadores Destacados</h2>
+    <div class="cards-container">
+      
+      <!-- Tarjeta 1 -->
+      <article class="player-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=600&q=80" alt="Jugador Delantero">
+        </div>
+        <div class="card-content">
+          <h3>Mateo Silva</h3>
+          <p>Delantero estrella conocido por su impresionante agilidad, definición rápida en el área chica y más de 25 goles en la temporada actual.</p>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article class="player-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=600&q=80" alt="Jugador Centrocampista">
+        </div>
+        <div class="card-content">
+          <h3>Lucas Ramírez</h3>
+          <p>Mediocampista organizador, cerebro del equipo con una visión de juego privilegiada y precisión milimétrica en pases filtrados.</p>
+        </div>
+      </article>
+
+      <!-- Tarjeta 3 -->
+      <article class="player-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=600&q=80" alt="Jugador Guardameta">
+        </div>
+        <div class="card-content">
+          <h3>Carlos Mendoza</h3>
+          <p>Guardameta titular con reflejos felinos, liderazgo bajo los tres palos y un récord impecable de imbatibilidad este torneo.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- FOOTER CON FORMULARIO DE CONTACTO -->
+  <footer id="contacto" class="main-footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>Fútbol al Día</h3>
+        <p>Suscríbete a nuestro boletín para recibir análisis de partidos, novedades de fichajes y contenido exclusivo en tu correo.</p>
+      </div>
+
+      <form class="contact-form">
+        <h4>Contáctanos</h4>
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+        </div>
+        <button type="submit" class="btn-submit">Enviar</button>
+      </form>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Fútbol al Día. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
